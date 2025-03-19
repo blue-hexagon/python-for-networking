@@ -1,0 +1,21 @@
+site_name: Python for Networking - Building Tools & Automation
+site_url: https://yourgithubusername.github.io/my-webbook/
+theme:
+  name: material  # Use Material for a modern look
+  features:
+    - navigation.sections  # Enable collapsible sections
+    - navigation.tracking  # Highlights current section
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Introduction: chapter1.md
+      - Installation: chapter2.md
+  - Advanced Topics:
+      - Topic 1: subfolder/topic1.md
+      - Topic 2: subfolder/topic2.md
+  - About: about.md
+
+plugins:
+  - search  # Enables built-in search
+  - mkdocstrings  # Optional: for code documentation
