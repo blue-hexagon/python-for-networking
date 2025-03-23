@@ -3,7 +3,7 @@ site_url: https://blue-hexagon.github.io/python-for-networking/
 theme:
   favicon: images/favicon.png
   icon:
-    logo: material/library-shelves
+    logo: material/language-python
   name: material
   features:
     - navigation.tabs
@@ -58,19 +58,22 @@ nav:
       - The 'Main' Issue: getting_started/the_main_issue.md
       - Scoping: getting_started/scope_rules_in_python.md
       - PEP8: getting_started/pep8_overview.md
-      - Elementary Datatypes: getting_started/elementary_datatypes.md
+      - Git Crashcourse: getting_started/git_crashcourse.md
   - The Basics of Python:
-      - Introduction: a0.md
+      - Introduction: python_beginner/introduction.md
+      - Elementary Datatypes: python_beginner/elementary_datatypes.md
   - Building Proficiency with Python:
-      - Introduction: a0.md
+      - Introduction: python_intermediate/introduction.md
   - Mastering Python:
-      - Introduction: a0.md
+      - Introduction: python_advanced/introduction.md
   - Becoming a Network Pythonista:
-      - Introduction: a0.md
+      - Introduction: python_mastery/introduction.md
 
 plugins:
   - search
   - mkdocstrings
+  - mermaid2
+  - glightbox
 
 markdown_extensions:
   - abbr
@@ -86,9 +89,16 @@ markdown_extensions:
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.snippets
-  - pymdownx.emoji
+  - pymdownx.blocks.caption
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.keys
 
 extra_css:

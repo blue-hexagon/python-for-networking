@@ -9,7 +9,12 @@ Go this website and download and install [PyCharm Community Edition](https://www
 
 ## Setup a bare-bones Python Application in PyCharm
 
-Then open PyCharm and create a new pure Python project and create a new file named main.py.
+Then open PyCharm and create a new **Pure Python** project and create a new file named main.py.
+
+!!! note
+    This automatically sets up a virtual environment using `virtualenv`.
+
+![Dialog for creating new Python projects](introduction/create_python_project.png)
 
 Write the following inside the file:
 
@@ -19,16 +24,34 @@ print("Hello World!")
 
 Open up the terminal and type `python main.py` and press enter.
 
+### PyCharm Overview
+Lets explore PyCharm briefly before we continue, there are serveral important windows that you will eventually familiarize yourself with.
+Right now I will go over them very briefly.
+![Dialog for creating new Python projects](introduction/ide_overview.png)
+
+* **Project (blue)**
+* **Structure (white)**
+* **Terminal (purple)**
+* **Python Console (orange)**
+* **Code Editor (red)**
+
 ## Global-scope Code
 
 By default, Python allows you to type code directly into a file and run it, you won't get an error for that - but you won't get a high grade
 either!
 
 Here I've written a function for looking up saved SSIDs (and their stored passwords) on Windows computers. The example illustrates how
-Python is called without using a main-function as an entry point.
+Python is called **without** using a main-function as an entry point.
 This method has serious issues though, and we'll explore this further in the coming chapter.
 
-```python title="ssid_snitch.py"
+!!! note "Special print function"
+    
+        
+    If you look closely you will see we are using a function called `pprint`, that is not a typo, it is a function very similar to Pythons built-in `print` function, except
+    it pretty-prints the content of the variable it is wrapping. Using `pprint` is often useful when debugging and troubleshooting because it allows you to quickly
+    inspect the contents of complex datastructures.
+
+```python title="ssid_snitch.py" hl_lines="3 31-32"
 import platform
 import subprocess
 from pprint import pprint
