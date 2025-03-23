@@ -1,21 +1,95 @@
 site_name: Python for Networking - Building Tools & Automation
-site_url: https://yourgithubusername.github.io/my-webbook/
+site_url: https://blue-hexagon.github.io/python-for-networking/
 theme:
-  name: material  # Use Material for a modern look
+  favicon: images/favicon.png
+  icon:
+    logo: material/library-shelves
+  name: material
   features:
-    - navigation.sections  # Enable collapsible sections
-    - navigation.tracking  # Highlights current section
+    - navigation.tabs
+    - navigation.instant
+    - navigation.sections
+    - navigation.tracking
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - toc.integrate
+    - content.code.copy  # Enables "Copy" button in code blocks
+    - content.code.annotate
+    - content.code.select
+  palette:
+    - media: "(prefers-color-scheme)"
+      primary: deep purple
+      accent: teal
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+
+    - media: "(prefers-color-scheme: light)"
+      primary: deep purple
+      accent: teal
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      primary: deep purple
+      accent: teal
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+  font:
+    text: Roboto
+    code: Fira Code
+
+
 
 nav:
   - Home: index.md
   - Getting Started:
-      - Introduction: chapter1.md
-      - Installation: chapter2.md
-  - Advanced Topics:
-      - Topic 1: subfolder/topic1.md
-      - Topic 2: subfolder/topic2.md
-  - About: about.md
+      - Introduction: getting_started/introduction.md
+      - Virtual Environments: getting_started/virual_environments.md
+      - The 'Main' Issue: getting_started/the_main_issue.md
+      - Scoping: getting_started/scope_rules_in_python.md
+      - PEP8: getting_started/pep8_overview.md
+      - Elementary Datatypes: getting_started/elementary_datatypes.md
+  - The Basics of Python:
+      - Introduction: a0.md
+  - Building Proficiency with Python:
+      - Introduction: a0.md
+  - Mastering Python:
+      - Introduction: a0.md
+  - Becoming a Network Pythonista:
+      - Introduction: a0.md
 
 plugins:
-  - search  # Enables built-in search
-  - mkdocstrings  # Optional: for code documentation
+  - search
+  - mkdocstrings
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - footnotes
+  - admonition
+  - md_in_html
+  - pymdownx.highlight:
+      linenums_style: pymdownx-inline
+      linenums: true
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.emoji
+  - pymdownx.keys
+
+extra_css:
+  - overrides/styles.css

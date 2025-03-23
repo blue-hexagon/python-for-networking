@@ -1,0 +1,16 @@
+.md-grid {
+    max-width: 100% !important; /* Expands content width to full screen */
+}
+
+.md-main__inner {
+    max-width: 95% !important; /* Adjusts inner content width */
+}
+.md-main {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.md-clipboard {
+    background-color: #222; /* Darker background */
+    color: #fff; /* White text */
+    border-radius: 5px; /* Rounded edges */
+}
