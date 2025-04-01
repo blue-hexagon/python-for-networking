@@ -5,7 +5,9 @@ theme:
   icon:
     logo: material/language-python
   name: material
+  custom_dir: overrides
   features:
+    - announce.dismiss
     - navigation.tabs
     - navigation.instant
     - navigation.sections
@@ -14,6 +16,7 @@ theme:
     - navigation.path
     - navigation.indexes
     - navigation.top
+    - navigation.footer
     - toc.follow
     - toc.integrate
     - content.code.copy  # Enables "Copy" button in code blocks
@@ -52,21 +55,22 @@ theme:
 
 nav:
   - Home: index.md
-  - Getting Started:
+  - 1. Getting Started:
       - Introduction: getting_started/introduction.md
-      - Virtual Environments: getting_started/virual_environments.md
+      - Virtual Environments: getting_started/virtual_environments.md
+      - Getting Familiar with PyCharm: getting_started/getting_familiar_with_pycharm.md
       - The 'Main' Issue: getting_started/the_main_issue.md
       - Scoping: getting_started/scope_rules_in_python.md
       - PEP8: getting_started/pep8_overview.md
       - Git Crashcourse: getting_started/git_crashcourse.md
-  - The Basics of Python:
+  - 2. The Basics of Python:
       - Introduction: python_beginner/introduction.md
       - Elementary Datatypes: python_beginner/elementary_datatypes.md
-  - Building Proficiency with Python:
+  - 3. Building Proficiency with Python:
       - Introduction: python_intermediate/introduction.md
-  - Mastering Python:
+  - 4. Mastering Python:
       - Introduction: python_advanced/introduction.md
-  - Becoming a Network Pythonista:
+  - 5. Becoming a Network Pythonista:
       - Introduction: python_mastery/introduction.md
 
 plugins:
@@ -100,6 +104,16 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.keys
+
+copyright: Copyright &copy; 2025 - 2025 Blue-Hexagon
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://example.com
+      name: squidfunk on Fosstodon
+    - icon: fontawesome/brands/linkedin
+      link: https://example.com
 
 extra_css:
   - overrides/styles.css

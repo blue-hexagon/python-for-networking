@@ -12,7 +12,7 @@ Go this website and download and install [PyCharm Community Edition](https://www
 Then open PyCharm and create a new **Pure Python** project and create a new file named main.py.
 
 !!! note
-    This automatically sets up a virtual environment using `virtualenv`.
+    This automatically sets up a Python virtual environment using `virtualenv` which is a superset of `venv` and has to be downloaded besides Python (PyCharm handles this for you). If you click the caret you have the option to use a bunch of other virtual environment tools. 
 
 ![Dialog for creating new Python projects](introduction/create_python_project.png)
 
@@ -24,16 +24,7 @@ print("Hello World!")
 
 Open up the terminal and type `python main.py` and press enter.
 
-### PyCharm Overview
-Lets explore PyCharm briefly before we continue, there are serveral important windows that you will eventually familiarize yourself with.
-Right now I will go over them very briefly.
-![Dialog for creating new Python projects](introduction/ide_overview.png)
 
-* **Project (blue)**
-* **Structure (white)**
-* **Terminal (purple)**
-* **Python Console (orange)**
-* **Code Editor (red)**
 
 ## Global-scope Code
 
