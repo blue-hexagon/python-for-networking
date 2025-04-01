@@ -94,6 +94,23 @@
     </div>
     <div data-md-component="announce">
       
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+              <button class="md-banner__button md-icon" aria-label="Don't show this again">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+              </button>
+            
+            
+🚧 This is a <b>pre-release version</b> and is far from finished. Expect changes.
+
+          </div>
+          
+            <script>var el=document.querySelector("[data-md-component=announce]");if(el){var content=el.querySelector(".md-typeset");__md_hash(content.innerHTML)===__md_get("__announce")&&(el.hidden=!0)}</script>
+          
+        </aside>
+      
     </div>
     
     
@@ -252,7 +269,7 @@
   
     
   
-  Getting Started
+  1. Getting Started
 
         </a>
       </li>
@@ -272,7 +289,7 @@
   
     
   
-  The Basics of Python
+  2. The Basics of Python
 
         </a>
       </li>
@@ -292,7 +309,7 @@
   
     
   
-  Building Proficiency with Python
+  3. Building Proficiency with Python
 
         </a>
       </li>
@@ -312,7 +329,7 @@
   
     
   
-  Mastering Python
+  4. Mastering Python
 
         </a>
       </li>
@@ -332,7 +349,7 @@
   
     
   
-  Becoming a Network Pythonista
+  5. Becoming a Network Pythonista
 
         </a>
       </li>
@@ -419,6 +436,8 @@
       
         
       
+        
+      
     
     
       
@@ -441,7 +460,7 @@
             
   
   <span class="md-ellipsis">
-    Getting Started
+    1. Getting Started
     
   </span>
   
@@ -452,7 +471,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
-            Getting Started
+            1. Getting Started
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -485,11 +504,33 @@
   
   
     <li class="md-nav__item">
-      <a href="../virual_environments.md" class="md-nav__link">
+      <a href="../virtual_environments/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     Virtual Environments
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting_familiar_with_pycharm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting Familiar with PyCharm
     
   </span>
   
@@ -612,7 +653,7 @@
           <li class="md-nav__item">
   <a href="#modifying-an-enclosing-variable-with-nonlocal" class="md-nav__link">
     <span class="md-ellipsis">
-      Modifying an Enclosing Variable with **nonlocal**
+      Modifying an Enclosing Variable with nonlocal
     </span>
   </a>
   
@@ -774,7 +815,7 @@
             
   
   <span class="md-ellipsis">
-    The Basics of Python
+    2. The Basics of Python
     
   </span>
   
@@ -785,7 +826,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
-            The Basics of Python
+            2. The Basics of Python
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -872,7 +913,7 @@
             
   
   <span class="md-ellipsis">
-    Building Proficiency with Python
+    3. Building Proficiency with Python
     
   </span>
   
@@ -883,7 +924,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            Building Proficiency with Python
+            3. Building Proficiency with Python
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -948,7 +989,7 @@
             
   
   <span class="md-ellipsis">
-    Mastering Python
+    4. Mastering Python
     
   </span>
   
@@ -959,7 +1000,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            Mastering Python
+            4. Mastering Python
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1024,7 +1065,7 @@
             
   
   <span class="md-ellipsis">
-    Becoming a Network Pythonista
+    5. Becoming a Network Pythonista
     
   </span>
   
@@ -1035,7 +1076,7 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
-            Becoming a Network Pythonista
+            5. Becoming a Network Pythonista
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1087,60 +1128,79 @@
   <h1>Scoping</h1>
 
 <h2 id="python-scoping-understanding-legb-rule-scope-types"><strong>Python Scoping: Understanding LEGB Rule &amp; Scope Types</strong></h2>
-<p>In Python, <strong>scoping</strong> determines how variables are searched and accessed in different parts of a program. Python uses the <strong>LEGB rule</strong> (Local, Enclosing, Global, Built-in) to resolve variable names.</p>
-<p><strong>Scoping</strong> is fundamentally about <strong>where a variable is accessible</strong> in a program. When you declare a variable, <strong>not all parts of your code can see or modify it</strong>. The question scoping answers is:</p>
+<p>In Python, <strong>scoping</strong> determines how variables are searched and accessed in different parts of a program. Python uses the <strong>LEGB rule</strong> (
+Local, Enclosing, Global, Built-in) to resolve variable names.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You don't have to memorize the LEGB rule, as you write more and more Python you'll come to know it intuitively - but for now, read this
+  chapter through and try to understand as much of it as possible, and then later on return to it and re-read the main takeways a few times
+  and do some experimentation whenever in doubt.</p>
+</div>
+<p><strong>Scoping</strong> is fundamentally about where a variable is accessible in a program. When you declare a variable, not all parts of your code can
+see or modify it - that is determined by the scope of the variable.</p>
+<p>Scoping answers the following question:</p>
 <blockquote>
-<p><strong>"I have data or logic stored in this variable, but I need to access it somewhere else – can I access it directly, or do I need to pass it explicitly?"</strong></p>
+<p><strong>"I have data or logic stored in this variable, but I need to access it somewhere else – can I access it directly, or do I need to pass
+it explicitly?"</strong></p>
 </blockquote>
-<p>This leads to different strategies based on <strong>where the variable is declared and where it needs to be used</strong>. Depending on the situation, you might need to:</p>
+<p>This leads to different strategies based on where the variable is declared and where it needs to be used. Depending on the situation, you
+might need to:</p>
 <ul>
 <li>Pass it as a <strong>function argument</strong></li>
 <li>Store it as an <strong>instance variable in a class</strong></li>
 <li>Use <strong>closures</strong> for state retention</li>
-<li>Use <strong>global or nonlocal</strong> (sparingly)</li>
+<li>Use <code>global</code> or <code>nonlocal</code> (sparingly)</li>
 </ul>
-<p>The main thing you should focus on right now, is understanding the rule of:
-* Local scope <strong>(L</strong>)
-* Nested scope <strong>(E)</strong>
-* Global scope <strong>(G)</strong>
-* Built-in scope <strong>(B)</strong></p>
+<p>Most often you'll use the first two and more rarely the third and very rarely the fourth method.</p>
 <hr />
 <h2 id="the-four-scope-levels-legb-rule"><strong>The Four Scope Levels (LEGB Rule)</strong></h2>
 <p>Python follows a hierarchy when looking up variables:</p>
-<p>1️⃣ <strong>Local (L)</strong>: Inside the current function (or lambda).<br />
-2️⃣ <strong>Enclosing (E)</strong>: Inside any outer function (if using nested functions).
-3️⃣ <strong>Global (G)</strong>: Defined at the top level of a module or file.<br />
-4️⃣ <strong>Built-in (B)</strong>: Predefined Python names like <code>len()</code>, <code>print()</code>, <code>range()</code>.</p>
+<ol>
+<li>Local (L): Inside the current function (or <code>lambda</code>). ! (1)</li>
+<li>Enclosing (E): Inside any outer function (if using nested functions).</li>
+<li>Global (G): Defined at the top level of a module or file.</li>
+<li>
+<p>Built-in (B): Predefined Python names like <code>len()</code>, <code>print()</code>, <code>range()</code>.</p>
+</li>
+<li>
+<p>Don't worry about lambdas for now - they're an advanced feature that is pretty cool and has some application to them, but rarely used for
+   the most part.</p>
+</li>
+</ol>
 <p>Python searches for a variable in this order:<br />
 <strong>Local → Enclosing → Global → Built-in</strong></p>
 <p>If the variable isn't found, Python raises a <code>NameError</code>.</p>
 <hr />
 <h2 id="1-local-scope"><strong>1. Local Scope</strong></h2>
 <p>A variable defined inside a function is <strong>local</strong> to that function.</p>
-<p><div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><a href="#__codelineno-0-1"><span class="linenos" data-linenos="1 "></span></a><span class="k">def</span><span class="w"> </span><span class="nf">my_function</span><span class="p">():</span>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><a href="#__codelineno-0-1"><span class="linenos" data-linenos="1 "></span></a><span class="k">def</span><span class="w"> </span><span class="nf">my_function</span><span class="p">():</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><a href="#__codelineno-0-2"><span class="linenos" data-linenos="2 "></span></a>    <span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>  <span class="c1"># Local scope</span>
 </span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a><a href="#__codelineno-0-3"><span class="linenos" data-linenos="3 "></span></a>    <span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
 </span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4"></a><a href="#__codelineno-0-4"><span class="linenos" data-linenos="4 "></span></a>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5"></a><a href="#__codelineno-0-5"><span class="linenos" data-linenos="5 "></span></a><span class="n">my_function</span><span class="p">()</span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6"></a><a href="#__codelineno-0-6"><span class="linenos" data-linenos="6 "></span></a><span class="c1"># print(x)  # ❌ NameError: x is not defined (because it&#39;s local to my_function)</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5"></a><a href="#__codelineno-0-5"><span class="linenos" data-linenos="5 "></span></a>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6"></a><a href="#__codelineno-0-6"><span class="linenos" data-linenos="6 "></span></a><span class="n">my_function</span><span class="p">()</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7"></a><a href="#__codelineno-0-7"><span class="linenos" data-linenos="7 "></span></a><span class="c1"># print(x)  # ❌ NameError: x is not defined (because it&#39;s local to my_function)</span>
 </span></code></pre></div>
-<em>We'll get to exceptions later.</em></p>
+<p><em>We'll get to exceptions later.</em></p>
 <hr />
 <h2 id="2-enclosing-scope-nested-functions"><strong>2. Enclosing Scope (Nested Functions)</strong></h2>
 <p>If a variable isn't found in <strong>local scope</strong>, Python checks <strong>enclosing functions</strong>.</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><a href="#__codelineno-1-1"><span class="linenos" data-linenos="1 "></span></a><span class="k">def</span><span class="w"> </span><span class="nf">outer</span><span class="p">():</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2"></a><a href="#__codelineno-1-2"><span class="linenos" data-linenos="2 "></span></a>    <span class="n">y</span> <span class="o">=</span> <span class="mi">20</span>  <span class="c1"># Enclosing scope</span>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3"></a><a href="#__codelineno-1-3"><span class="linenos" data-linenos="3 "></span></a>
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4"></a><a href="#__codelineno-1-4"><span class="linenos" data-linenos="4 "></span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">inner</span><span class="p">():</span>
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5"></a><a href="#__codelineno-1-5"><span class="linenos" data-linenos="5 "></span></a>        <span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>  <span class="c1"># Can access y from enclosing function</span>
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6"></a><a href="#__codelineno-1-6"><span class="linenos" data-linenos="6 "></span></a>
-</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7"></a><a href="#__codelineno-1-7"><span class="linenos" data-linenos="7 "></span></a>    <span class="n">inner</span><span class="p">()</span>
-</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8"></a><a href="#__codelineno-1-8"><span class="linenos" data-linenos="8 "></span></a>
-</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9"></a><a href="#__codelineno-1-9"><span class="linenos" data-linenos="9 "></span></a><span class="n">outer</span><span class="p">()</span>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a><a href="#__codelineno-1-1"><span class="linenos" data-linenos=" 1 "></span></a><span class="k">def</span><span class="w"> </span><span class="nf">outer</span><span class="p">():</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2"></a><a href="#__codelineno-1-2"><span class="linenos" data-linenos=" 2 "></span></a>    <span class="n">y</span> <span class="o">=</span> <span class="mi">20</span>  <span class="c1"># Enclosing scope</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3"></a><a href="#__codelineno-1-3"><span class="linenos" data-linenos=" 3 "></span></a>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4"></a><a href="#__codelineno-1-4"><span class="linenos" data-linenos=" 4 "></span></a>    <span class="k">def</span><span class="w"> </span><span class="nf">inner</span><span class="p">():</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5"></a><a href="#__codelineno-1-5"><span class="linenos" data-linenos=" 5 "></span></a>        <span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>  <span class="c1"># Can access y from enclosing function</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6"></a><a href="#__codelineno-1-6"><span class="linenos" data-linenos=" 6 "></span></a>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7"></a><a href="#__codelineno-1-7"><span class="linenos" data-linenos=" 7 "></span></a>    <span class="n">inner</span><span class="p">()</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8"></a><a href="#__codelineno-1-8"><span class="linenos" data-linenos=" 8 "></span></a>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9"></a><a href="#__codelineno-1-9"><span class="linenos" data-linenos=" 9 "></span></a>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10"></a><a href="#__codelineno-1-10"><span class="linenos" data-linenos="10 "></span></a><span class="n">outer</span><span class="p">()</span>
 </span></code></pre></div>
-<p>🔹 <code>**inner()**</code><strong> can access <code>****y****</code> because <code>****y****</code> is in the enclosing function </strong><strong><code>outer()</code></strong>.<br />
-🔹 But <strong>inner functions can't modify enclosing variables unless explicitly declared with </strong>****<code>**nonlocal**</code>.</p>
-<h3 id="modifying-an-enclosing-variable-with-nonlocal"><strong>Modifying an Enclosing Variable with </strong><code>**nonlocal**</code></h3>
+<ul>
+<li><code>inner()</code> can access <code>y</code> because <code>y</code> is in the enclosing function <code>outer()</code>.  </li>
+<li>But inner functions can't modify enclosing variables unless explicitly declared with <code>nonlocal</code>.</li>
+</ul>
+<h3 id="modifying-an-enclosing-variable-with-nonlocal"><strong>Modifying an Enclosing Variable with </strong><code>nonlocal</code></h3>
 <div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1"></a><a href="#__codelineno-2-1"><span class="linenos" data-linenos=" 1 "></span></a><span class="k">def</span><span class="w"> </span><span class="nf">outer</span><span class="p">():</span>
 </span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2"></a><a href="#__codelineno-2-2"><span class="linenos" data-linenos=" 2 "></span></a>    <span class="n">y</span> <span class="o">=</span> <span class="mi">20</span>  <span class="c1"># Enclosing scope</span>
 </span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3"></a><a href="#__codelineno-2-3"><span class="linenos" data-linenos=" 3 "></span></a>
@@ -1152,49 +1212,72 @@
 </span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9"></a><a href="#__codelineno-2-9"><span class="linenos" data-linenos=" 9 "></span></a>    <span class="n">inner</span><span class="p">()</span>
 </span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10"></a><a href="#__codelineno-2-10"><span class="linenos" data-linenos="10 "></span></a>    <span class="nb">print</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>  <span class="c1"># Modified in enclosing scope</span>
 </span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11"></a><a href="#__codelineno-2-11"><span class="linenos" data-linenos="11 "></span></a>
-</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12"></a><a href="#__codelineno-2-12"><span class="linenos" data-linenos="12 "></span></a><span class="n">outer</span><span class="p">()</span>
+</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12"></a><a href="#__codelineno-2-12"><span class="linenos" data-linenos="12 "></span></a>
+</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13"></a><a href="#__codelineno-2-13"><span class="linenos" data-linenos="13 "></span></a><span class="n">outer</span><span class="p">()</span>
 </span></code></pre></div>
-<p>🔹 Without <code>nonlocal</code>, <code>y += 10</code> would create a <strong>new local variable</strong> instead of modifying the enclosing <code>y</code>.</p>
+<ul>
+<li>Without <code>nonlocal</code>, <code>y += 10</code> would create a <strong>new local variable</strong> instead of modifying the enclosing <code>y</code>.</li>
+</ul>
 <hr />
 <h2 id="3-global-scope"><strong>3. Global Scope</strong></h2>
-<p>Variables defined outside functions are <strong>global</strong> and accessible everywhere <strong>except when modified inside a function</strong> (unless declared <code>global</code>).</p>
+<p>Variables defined outside functions are <strong>global</strong> and accessible everywhere <strong>except when modified inside a function</strong> (unless
+declared <code>global</code>).</p>
 <div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1"></a><a href="#__codelineno-3-1"><span class="linenos" data-linenos="1 "></span></a><span class="n">z</span> <span class="o">=</span> <span class="mi">30</span>  <span class="c1"># Global scope</span>
 </span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2"></a><a href="#__codelineno-3-2"><span class="linenos" data-linenos="2 "></span></a>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3"></a><a href="#__codelineno-3-3"><span class="linenos" data-linenos="3 "></span></a><span class="k">def</span><span class="w"> </span><span class="nf">my_function</span><span class="p">():</span>
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4"></a><a href="#__codelineno-3-4"><span class="linenos" data-linenos="4 "></span></a>    <span class="nb">print</span><span class="p">(</span><span class="n">z</span><span class="p">)</span>  <span class="c1"># Access global variable</span>
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5"></a><a href="#__codelineno-3-5"><span class="linenos" data-linenos="5 "></span></a>
-</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6"></a><a href="#__codelineno-3-6"><span class="linenos" data-linenos="6 "></span></a><span class="n">my_function</span><span class="p">()</span>
-</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7"></a><a href="#__codelineno-3-7"><span class="linenos" data-linenos="7 "></span></a><span class="nb">print</span><span class="p">(</span><span class="n">z</span><span class="p">)</span>  <span class="c1"># Still accessible globally</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3"></a><a href="#__codelineno-3-3"><span class="linenos" data-linenos="3 "></span></a>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4"></a><a href="#__codelineno-3-4"><span class="linenos" data-linenos="4 "></span></a><span class="k">def</span><span class="w"> </span><span class="nf">my_function</span><span class="p">():</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5"></a><a href="#__codelineno-3-5"><span class="linenos" data-linenos="5 "></span></a>    <span class="nb">print</span><span class="p">(</span><span class="n">z</span><span class="p">)</span>  <span class="c1"># Access global variable</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6"></a><a href="#__codelineno-3-6"><span class="linenos" data-linenos="6 "></span></a>
+</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7"></a><a href="#__codelineno-3-7"><span class="linenos" data-linenos="7 "></span></a>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8"></a><a href="#__codelineno-3-8"><span class="linenos" data-linenos="8 "></span></a><span class="n">my_function</span><span class="p">()</span>
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9"></a><a href="#__codelineno-3-9"><span class="linenos" data-linenos="9 "></span></a><span class="nb">print</span><span class="p">(</span><span class="n">z</span><span class="p">)</span>  <span class="c1"># Still accessible globally</span>
 </span></code></pre></div>
-<p><strong>Global variables can be accessed inside functions but not modified unless declared </strong>****<code>**global**</code>.</p>
+<p><strong>Global variables can be accessed inside functions but not modified unless declared </strong><code>global</code>.</p>
 <h3 id="modifying-a-global-variable-with-global"><strong>Modifying a Global Variable with </strong><code>**global**</code></h3>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1"></a><a href="#__codelineno-4-1"><span class="linenos" data-linenos="1 "></span></a><span class="n">counter</span> <span class="o">=</span> <span class="mi">0</span>  <span class="c1"># Global scope</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2"></a><a href="#__codelineno-4-2"><span class="linenos" data-linenos="2 "></span></a>
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3"></a><a href="#__codelineno-4-3"><span class="linenos" data-linenos="3 "></span></a><span class="k">def</span><span class="w"> </span><span class="nf">increment</span><span class="p">():</span>
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4"></a><a href="#__codelineno-4-4"><span class="linenos" data-linenos="4 "></span></a>    <span class="k">global</span> <span class="n">counter</span>  <span class="c1"># Declaring counter as global</span>
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5"></a><a href="#__codelineno-4-5"><span class="linenos" data-linenos="5 "></span></a>    <span class="n">counter</span> <span class="o">+=</span> <span class="mi">1</span>  <span class="c1"># Now modifying the global variable</span>
-</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6"></a><a href="#__codelineno-4-6"><span class="linenos" data-linenos="6 "></span></a>
-</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7"></a><a href="#__codelineno-4-7"><span class="linenos" data-linenos="7 "></span></a><span class="n">increment</span><span class="p">()</span>
-</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8"></a><a href="#__codelineno-4-8"><span class="linenos" data-linenos="8 "></span></a><span class="nb">print</span><span class="p">(</span><span class="n">counter</span><span class="p">)</span>  <span class="c1"># Output: 1</span>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1"></a><a href="#__codelineno-4-1"><span class="linenos" data-linenos=" 1 "></span></a><span class="n">counter</span> <span class="o">=</span> <span class="mi">0</span>  <span class="c1"># Global scope</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2"></a><a href="#__codelineno-4-2"><span class="linenos" data-linenos=" 2 "></span></a>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3"></a><a href="#__codelineno-4-3"><span class="linenos" data-linenos=" 3 "></span></a>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4"></a><a href="#__codelineno-4-4"><span class="linenos" data-linenos=" 4 "></span></a><span class="k">def</span><span class="w"> </span><span class="nf">increment</span><span class="p">():</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5"></a><a href="#__codelineno-4-5"><span class="linenos" data-linenos=" 5 "></span></a>    <span class="k">global</span> <span class="n">counter</span>  <span class="c1"># Declaring counter as global</span>
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6"></a><a href="#__codelineno-4-6"><span class="linenos" data-linenos=" 6 "></span></a>    <span class="n">counter</span> <span class="o">+=</span> <span class="mi">1</span>  <span class="c1"># Now modifying the global variable</span>
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7"></a><a href="#__codelineno-4-7"><span class="linenos" data-linenos=" 7 "></span></a>
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8"></a><a href="#__codelineno-4-8"><span class="linenos" data-linenos=" 8 "></span></a>
+</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9"></a><a href="#__codelineno-4-9"><span class="linenos" data-linenos=" 9 "></span></a><span class="n">increment</span><span class="p">()</span>
+</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10"></a><a href="#__codelineno-4-10"><span class="linenos" data-linenos="10 "></span></a><span class="nb">print</span><span class="p">(</span><span class="n">counter</span><span class="p">)</span>  <span class="c1"># Output: 1</span>
 </span></code></pre></div>
-<p>🔹 Without <code>global</code>, <code>counter += 1</code> would create a <strong>new local variable</strong>, leaving the global <code>counter</code> unchanged.</p>
-<p>This is purely for demonstration - using <code>global</code> is usually bad practice and is often considered a <a href="https://www.google.com/search?q=code+smell">code smell</a>. In multithreaded programs it can cause <a href="https://stackoverflow.com/questions/2143873/how-to-explain-the-deadlock-better">deadlocks</a> and it makes debugging and software testing harder and results in code that is harder to reason about and understand. </p>
+<ul>
+<li>Without <code>global</code>, <code>counter += 1</code> would create a new <strong>local variable</strong>, leaving the global <code>counter</code> unchanged.</li>
+</ul>
+<p>This is purely for demonstration - using <code>global</code> is usually bad practice and is often considered
+a <a href="https://www.google.com/search?q=code+smell">code smell</a>. In multithreaded programs it can
+cause <a href="https://stackoverflow.com/questions/2143873/how-to-explain-the-deadlock-better">deadlocks</a> and it makes debugging and software
+testing harder and results in code that is harder to reason about and understand (see also: <a href="https://en.wikipedia.org/wiki/Spaghetti_code#:~:text=Spaghetti%20code%20is%20a%20pejorative,with%20insufficient%20ability%20or%20experience.">spaghetti code</a>).</p>
 <hr />
 <h2 id="4-built-in-scope"><strong>4. Built-in Scope</strong></h2>
-<p>Python has <strong>predefined functions and keywords</strong> that exist in the <strong>built-in scope</strong>.</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1"></a><a href="#__codelineno-5-1"><span class="linenos" data-linenos="1 "></span></a><span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="s2">&quot;Python&quot;</span><span class="p">))</span>  <span class="c1"># len() is in built-in scope</span>
+<p>Python has predefined <strong>functions</strong> and <strong>keywords</strong> that exist in the <strong>built-in scope</strong>.</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1"></a><a href="#__codelineno-5-1"><span class="linenos" data-linenos="1 "></span></a><span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="s2">&quot;Python&quot;</span><span class="p">))</span>  <span class="c1"># Both print` `len` is in built-in scope.</span>
 </span></code></pre></div>
-<p>🔹 These are <strong>always available</strong> from anywhere in your code, without you having to do anything! - Unless you override them, aka. shadow them (which is bad).</p>
+<ul>
+<li>These are always available from anywhere in your code, without you having to do anything! - Unless you override them, aka. shadow
+them (which is bad practice).</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Python has a few built-ins that you have to be mindful about, such as <code>id</code>, <code>range</code>, <code>hash</code> and <code>input</code> for example, which you will inevitably stumble upon at sometime.
+Be mindful not to shadow them.</p>
+</div>
 <h3 id="overriding-a-built-in-function-not-recommended"><strong>Overriding a Built-in Function (Not Recommended)</strong></h3>
 <div class="language-python highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1"></a><a href="#__codelineno-6-1"><span class="linenos" data-linenos="1 "></span></a><span class="k">def</span><span class="w"> </span><span class="nf">len</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>  <span class="c1"># Overriding built-in function</span>
 </span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2"></a><a href="#__codelineno-6-2"><span class="linenos" data-linenos="2 "></span></a>    <span class="k">return</span> <span class="s2">&quot;Oops!&quot;</span>
 </span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3"></a><a href="#__codelineno-6-3"><span class="linenos" data-linenos="3 "></span></a>
-</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4"></a><a href="#__codelineno-6-4"><span class="linenos" data-linenos="4 "></span></a><span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="s2">&quot;Python&quot;</span><span class="p">))</span>  <span class="c1"># Oops!</span>
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4"></a><a href="#__codelineno-6-4"><span class="linenos" data-linenos="4 "></span></a>
+</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5"></a><a href="#__codelineno-6-5"><span class="linenos" data-linenos="5 "></span></a><span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="s2">&quot;Python&quot;</span><span class="p">))</span>  <span class="c1"># Prints: &quot;Oops!&quot; instead of &quot;6&quot;</span>
 </span></code></pre></div>
-<p><strong>Avoid naming variables/functions the same as built-in ones</strong> to prevent unexpected behavior (this phenomenon, when done, is called <code>shadowing</code>).</p>
+<p>Avoid naming variables/functions the same as built-in ones to prevent unexpected behavior (this phenomenon, when done, is
+called <code>shadowing</code>).</p>
 <hr />
 <h2 id="exercises"><strong>Exercises</strong></h2>
-<p>No exercises at this point in time.</p>
+<p>TODO</p>
 
 
 
@@ -1225,14 +1308,76 @@
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../the_main_issue/" class="md-footer__link md-footer__link--prev" aria-label="Previous: The &#39;Main&#39; Issue">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                The 'Main' Issue
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../pep8_overview/" class="md-footer__link md-footer__link--next" aria-label="Next: PEP8">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                PEP8
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
   
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 - 2025 Blue-Hexagon
+    </div>
   
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://example.com" target="_blank" rel="noopener" title="squidfunk on Fosstodon" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://example.com" target="_blank" rel="noopener" title="example.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
     </a>
   
 </div>
@@ -1247,7 +1392,7 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.instant", "navigation.sections", "navigation.tracking", "navigation.expand", "navigation.path", "navigation.indexes", "navigation.top", "toc.follow", "toc.integrate", "content.code.copy", "content.code.annotate", "content.code.select"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "navigation.tabs", "navigation.instant", "navigation.sections", "navigation.tracking", "navigation.expand", "navigation.path", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "toc.integrate", "content.code.copy", "content.code.annotate", "content.code.select"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>

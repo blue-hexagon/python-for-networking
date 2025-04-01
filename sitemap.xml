@@ -2,50 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://blue-hexagon.github.io/python-for-networking/</loc>
-         <lastmod>2025-03-23</lastmod>
+         <lastmod>2025-04-01</lastmod>
+    </url>
+    <url>
+         <loc>https://blue-hexagon.github.io/python-for-networking/getting_started/getting_familiar_with_pycharm/</loc>
+         <lastmod>2025-04-01</lastmod>
     </url>
     <url>
          <loc>https://blue-hexagon.github.io/python-for-networking/getting_started/git_crashcourse/</loc>
-         <lastmod>2025-03-23</lastmod>
+         <lastmod>2025-04-01</lastmod>
     </url>
     <url>
          <loc>https://blue-hexagon.github.io/python-for-networking/getting_started/introduction/</loc>
-         <lastmod>2025-03-23</lastmod>
+         <lastmod>2025-04-01</lastmod>
     </url>
     <url>
          <loc>https://blue-hexagon.github.io/python-for-networking/getting_started/pep8_overview/</loc>
-         <lastmod>2025-03-23</lastmod>
+         <lastmod>2025-04-01</lastmod>
     </url>
     <url>
          <loc>https://blue-hexagon.github.io/python-for-networking/getting_started/scope_rules_in_python/</loc>
-         <lastmod>2025-03-23</lastmod>
+         <lastmod>2025-04-01</lastmod>
     </url>
     <url>
          <loc>https://blue-hexagon.github.io/python-for-networking/getting_started/the_main_issue/</loc>
-         <lastmod>2025-03-23</lastmod>
+         <lastmod>2025-04-01</lastmod>
     </url>
     <url>
          <loc>https://blue-hexagon.github.io/python-for-networking/getting_started/virtual_environments/</loc>
-         <lastmod>2025-03-23</lastmod>
+         <lastmod>2025-04-01</lastmod>
     </url>
     <url>
          <loc>https://blue-hexagon.github.io/python-for-networking/python_advanced/introduction/</loc>
-         <lastmod>2025-03-23</lastmod>
+         <lastmod>2025-04-01</lastmod>
     </url>
     <url>
          <loc>https://blue-hexagon.github.io/python-for-networking/python_beginner/elementary_datatypes/</loc>
-         <lastmod>2025-03-23</lastmod>
+         <lastmod>2025-04-01</lastmod>
     </url>
     <url>
          <loc>https://blue-hexagon.github.io/python-for-networking/python_beginner/introduction/</loc>
-         <lastmod>2025-03-23</lastmod>
+         <lastmod>2025-04-01</lastmod>
     </url>
     <url>
          <loc>https://blue-hexagon.github.io/python-for-networking/python_intermediate/introduction/</loc>
-         <lastmod>2025-03-23</lastmod>
+         <lastmod>2025-04-01</lastmod>
     </url>
     <url>
          <loc>https://blue-hexagon.github.io/python-for-networking/python_mastery/introduction/</loc>
-         <lastmod>2025-03-23</lastmod>
+         <lastmod>2025-04-01</lastmod>
     </url>
 </urlset>

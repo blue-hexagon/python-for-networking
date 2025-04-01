@@ -39,6 +39,18 @@
         </a>
 </div>
 <div data-md-component="announce">
+<aside class="md-banner">
+<div class="md-banner__inner md-grid md-typeset">
+<button aria-label="Don't show this again" class="md-banner__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+</button>
+            
+            
+🚧 This is a <b>pre-release version</b> and is far from finished. Expect changes.
+
+          </div>
+<script>var el=document.querySelector("[data-md-component=announce]");if(el){var content=el.querySelector(".md-typeset");__md_hash(content.innerHTML)===__md_get("__announce")&&(el.hidden=!0)}</script>
+</aside>
 </div>
 <header class="md-header" data-md-component="header">
 <nav aria-label="Header" class="md-header__inner md-grid">
@@ -131,7 +143,7 @@
   
     
   
-  Getting Started
+  1. Getting Started
 
         </a>
 </li>
@@ -141,7 +153,7 @@
   
     
   
-  The Basics of Python
+  2. The Basics of Python
 
         </a>
 </li>
@@ -151,7 +163,7 @@
   
     
   
-  Building Proficiency with Python
+  3. Building Proficiency with Python
 
         </a>
 </li>
@@ -161,7 +173,7 @@
   
     
   
-  Mastering Python
+  4. Mastering Python
 
         </a>
 </li>
@@ -171,7 +183,7 @@
   
     
   
-  Becoming a Network Pythonista
+  5. Becoming a Network Pythonista
 
         </a>
 </li>
@@ -203,7 +215,7 @@
 <input checked="" class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
 <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
 <span class="md-ellipsis">
-    Getting Started
+    1. Getting Started
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -211,7 +223,7 @@
 <nav aria-expanded="true" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_2">
 <span class="md-nav__icon md-icon"></span>
-            Getting Started
+            1. Getting Started
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
@@ -223,9 +235,17 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../virual_environments.md">
+<a class="md-nav__link" href="../virtual_environments/">
 <span class="md-ellipsis">
     Virtual Environments
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../getting_familiar_with_pycharm/">
+<span class="md-ellipsis">
+    Getting Familiar with PyCharm
     
   </span>
 </a>
@@ -359,6 +379,251 @@
     </span>
 </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#git">
+<span class="md-ellipsis">
+      Git
+    </span>
+</a>
+<nav aria-label="Git" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#configuring-git">
+<span class="md-ellipsis">
+      Configuring Git
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#configuration-files">
+<span class="md-ellipsis">
+      Configuration Files
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#git-add">
+<span class="md-ellipsis">
+      Git Add
+    </span>
+</a>
+<nav aria-label="Git Add" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#removing-staged-content">
+<span class="md-ellipsis">
+      Removing Staged Content
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#git-commit">
+<span class="md-ellipsis">
+      Git Commit
+    </span>
+</a>
+<nav aria-label="Git Commit" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#amending-a-commit">
+<span class="md-ellipsis">
+      Amending a Commit
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#git-status">
+<span class="md-ellipsis">
+      Git Status
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#git-log">
+<span class="md-ellipsis">
+      Git Log
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#git-diff">
+<span class="md-ellipsis">
+      Git Diff
+    </span>
+</a>
+<nav aria-label="Git Diff" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#comparing-a-file-across-branches">
+<span class="md-ellipsis">
+      Comparing a File Across Branches
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#git-stash">
+<span class="md-ellipsis">
+      Git Stash
+    </span>
+</a>
+<nav aria-label="Git Stash" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#viewing-stashs-files">
+<span class="md-ellipsis">
+      Viewing Stash's Files
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#stashing-untrackedignored-files">
+<span class="md-ellipsis">
+      Stashing Untracked/Ignored Files
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#working-with-multiple-stashes">
+<span class="md-ellipsis">
+      Working With Multiple Stashes
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#partial-stashes">
+<span class="md-ellipsis">
+      Partial Stashes
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#branch-a-stash">
+<span class="md-ellipsis">
+      Branch a Stash
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#gitignore">
+<span class="md-ellipsis">
+      .gitignore
+    </span>
+</a>
+<nav aria-label=".gitignore" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#local-ignore-rules">
+<span class="md-ellipsis">
+      Local Ignore Rules
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#debugging">
+<span class="md-ellipsis">
+      Debugging
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#git-tags">
+<span class="md-ellipsis">
+      Git Tags
+    </span>
+</a>
+<nav aria-label="Git Tags" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#creating-tags">
+<span class="md-ellipsis">
+      Creating Tags
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#deleting-tags">
+<span class="md-ellipsis">
+      Deleting Tags
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#types-of-tags">
+<span class="md-ellipsis">
+      Types of Tags
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#listing-tags">
+<span class="md-ellipsis">
+      Listing Tags
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#checkout-tag">
+<span class="md-ellipsis">
+      Checkout Tag
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#git-blame">
+<span class="md-ellipsis">
+      Git Blame
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#git-checkout">
+<span class="md-ellipsis">
+      Git Checkout
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#git-revert">
+<span class="md-ellipsis">
+      Git Revert
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#git-reset">
+<span class="md-ellipsis">
+      Git Reset
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#git-clean">
+<span class="md-ellipsis">
+      Git Clean
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
 </ul>
 </nav>
 </li>
@@ -369,7 +634,7 @@
 <input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_3" type="checkbox"/>
 <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
 <span class="md-ellipsis">
-    The Basics of Python
+    2. The Basics of Python
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -377,7 +642,7 @@
 <nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_3">
 <span class="md-nav__icon md-icon"></span>
-            The Basics of Python
+            2. The Basics of Python
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
@@ -403,7 +668,7 @@
 <input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_4" type="checkbox"/>
 <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
 <span class="md-ellipsis">
-    Building Proficiency with Python
+    3. Building Proficiency with Python
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -411,7 +676,7 @@
 <nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_4">
 <span class="md-nav__icon md-icon"></span>
-            Building Proficiency with Python
+            3. Building Proficiency with Python
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
@@ -429,7 +694,7 @@
 <input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_5" type="checkbox"/>
 <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
 <span class="md-ellipsis">
-    Mastering Python
+    4. Mastering Python
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -437,7 +702,7 @@
 <nav aria-expanded="false" aria-labelledby="__nav_5_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_5">
 <span class="md-nav__icon md-icon"></span>
-            Mastering Python
+            4. Mastering Python
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
@@ -455,7 +720,7 @@
 <input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_6" type="checkbox"/>
 <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
 <span class="md-ellipsis">
-    Becoming a Network Pythonista
+    5. Becoming a Network Pythonista
     
   </span>
 <span class="md-nav__icon md-icon"></span>
@@ -463,7 +728,7 @@
 <nav aria-expanded="false" aria-labelledby="__nav_6_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_6">
 <span class="md-nav__icon md-icon"></span>
-            Becoming a Network Pythonista
+            5. Becoming a Network Pythonista
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
@@ -484,7 +749,6 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1>Git Crashcourse</h1>
 <p>Absolutely, Tobias! Here's a <strong>very brief Git crash course</strong>, written in <strong>Markdown</strong>, ready to drop directly into your MkDocs <code>docs/git-crashcourse.md</code> file.</p>
 <hr/>
 <h2 id="docsgit-crashcoursemd"><code>docs/git-crashcourse.md</code></h2>
@@ -634,6 +898,204 @@
 <blockquote>
 <p>This diagram shows the basic Git workflow and commands that connect each stage.</p>
 </blockquote>
+<h1 id="git">Git</h1>
+<p>Blockquotes in this document cite <a href="https://www.atlassian.com/git/tutorials/">Atlassian's Git Tutorials</a>. This document is a condensed version of their tutorials on Git.</p>
+<h2 id="configuring-git">Configuring Git</h2>
+<p><div class="language-text highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1"></a><a href="#__codelineno-10-1"><span class="linenos" data-linenos="1 "></span></a>git config [ &lt;nil&gt; |--local | --global | --system] [user.name | user.email | alias.alias-name &lt;git-command&gt;]
+</span></code></pre></div>
+Open the global configuration file in a text editor for manual editing.
+<div class="language-text highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1"></a><a href="#__codelineno-11-1"><span class="linenos" data-linenos="1 "></span></a>git config --global --edit
+</span></code></pre></div></p>
+<h2 id="configuration-files">Configuration Files</h2>
+<p>Git stores configuration options in three separate files, which lets you scope options to individual repositories, users, or the entire system:</p>
+<ul>
+<li>/.git/config – Repository-specific settings.</li>
+<li>~/.gitconfig – User-specific settings. This is where options set with the --global flag are stored.</li>
+<li>$(prefix)/etc/gitconfig – System-wide settings</li>
+</ul>
+<p>When options in these files conflict, local settings override user settings, which override system-wide. If you open any of these files, you’ll see something like the following:</p>
+<h2 id="git-add">Git Add</h2>
+<p><code>git add</code> adds files from the working tree to the staging area which can then be comitted.</p>
+<p><code>git add &lt;directory|file&gt;</code></p>
+<p><code>git add -p # begin an interactive staging session</code></p>
+<p>This will present you with a chunk of changes and prompt you for a command.
+- Use y to stage the chunk
+- n to ignore the chunk
+- s to split it into smaller chunks
+- e to manually edit the chunk
+- q to exit.`</p>
+<h3 id="removing-staged-content">Removing Staged Content</h3>
+<p>Use <code>git restore --staged &lt;filename|directory&gt;</code>
+Use <code>git reset HEAD &lt;file&gt;</code></p>
+<h2 id="git-commit">Git Commit</h2>
+<blockquote>
+<p>Git doesn't require commit messages to follow any specific formatting constraints,
+but the canonical format is to summarize the entire commit on the first line in less than 50 characters,
+leave a blank line, then a detailed explanation of what’s been changed.</p>
+<p>It is a common practice to use the first line of the commit message as a subject line,
+similar to an email. The rest of the log message is considered the body and used to
+communicate details of the commit change set. Note that many developers also like
+to use the present tense in their commit messages. This makes them read more like
+actions on the repository, which makes many of the history-rewriting operations more intuitive.</p>
+</blockquote>
+<ul>
+<li><code>git commit</code></li>
+<li><code>git commit -m "msg"</code></li>
+<li><code>git commit --no-verify -m "msg"</code></li>
+<li><code>git commit -am "msg"</code></li>
+<li><code>git commit --amend</code></li>
+</ul>
+<h3 id="amending-a-commit">Amending a Commit</h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1"></a><a href="#__codelineno-12-1"><span class="linenos" data-linenos="1 "></span></a>git add hello.py
+</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2"></a><a href="#__codelineno-12-2"><span class="linenos" data-linenos="2 "></span></a>git commit --amend
+</span></code></pre></div>
+<h2 id="git-status">Git Status</h2>
+<p>Used to explore the state of the working directory and the staging area prior to comitting - lists which files are staged, unstaged, and untracked.</p>
+<p>Use: <code>git status</code></p>
+<h2 id="git-log">Git Log</h2>
+<p>The git log command is Git's basic tool for exploring a repository’s history. It’s what you use when you need to find a specific version of a project or figure out what changes will be introduced by merging in a feature branch.</p>
+<p>The <code>~</code> character is useful for making relative references to the parent of a commit. For example, <code>3157e~1</code> refers to the commit before <code>3157e</code>, and <code>HEAD~3</code> is the great-grandparent of the current commit.</p>
+<p><code>git log --pretty=oneline</code> or <code>git log --online</code></p>
+<p><code>git log --pretty=format:'%h %an %ad %s'</code></p>
+<p>Use: <code>git log --branches=*</code> to view commits from all branches.</p>
+<p><code>git log --stat</code></p>
+<p><code>git log -p</code></p>
+<p><code>git log --author="&lt;authors-handle&gt;"</code></p>
+<p><code>git log --grep="&lt;search-pattern&gt;"</code></p>
+<p>Use: <code>git log -S "piece of code to search for"</code> to search for commits containing a string or piece of code.</p>
+<p>Use: <code>git log &lt;since&gt;..&lt;until&gt;</code> to only show commits that occur between the two arguments. Arguments can be either commit ID, a branch name or any other kind of <a href="http://www.kernel.org/pub/software/scm/git/docs/gitrevisions.html">revision reference</a></p>
+<p>Use: <code>git log &lt;file&gt;</code> to only show commits that include the specified file.</p>
+<p><code>git log --graph --decorate --oneline</code></p>
+<p>Keep in mind, many of theese can be combined, e.g. <code>git log --author="manjana" --grep="something"</code></p>
+<h2 id="git-diff">Git Diff</h2>
+<p><code>git diff</code> command is often used along with <code>git status</code> and <code>git log</code> to analyze the current state of a Git repo.</p>
+<p><code>git diff --color-words</code> to show coloration of the diff</p>
+<p>Invoking <code>git diff</code> without a file path will compare changes across the entire repository.</p>
+<p><code>git diff HEAD ./path/to/file</code> is equivalent to <code>git diff ./path/to/file</code> and diffs the file against the index and thus shows changes in the working tree that aren't staged yet.</p>
+<p>When git diff is invoked with the <code>--cached</code>/<code>--staged</code> option the diff will compare the staged changes with the local repository.</p>
+<blockquote>
+<p>git diff can be passed Git refs to commits to diff. Some example refs are, HEAD, tags, and branch names.
+Every commit in Git has a commit ID which you can get when you execute GIT LOG. You can also pass this commit ID to git diff.</p>
+</blockquote>
+<h3 id="comparing-a-file-across-branches">Comparing a File Across Branches</h3>
+<p>To compare a specific file across branches, pass in the path of the file as the third argument to git diff</p>
+<p><code>git diff main_branch feature_branch ./src/diff_test.py</code></p>
+<h2 id="git-stash">Git Stash</h2>
+<p>The stash is local to your Git repository; stashes are not transferred to the server when you push.</p>
+<p>The git stash command takes your uncommitted changes (both staged and unstaged), saves them away for later use, and then temporarily removes them from your working copy.</p>
+<p>To save local changes to the stash: <code>git stash</code>
+To retrieve the stash: <code>git stash pop</code></p>
+<p>By default Git won't stash changes made to untracked or ignored files.</p>
+<h3 id="viewing-stashs-files">Viewing Stash's Files</h3>
+<ul>
+<li>Use: <code>git stash show</code> to view a summary of the stash</li>
+<li>Use: <code>git stash show -p</code> to view the full diff of a stash</li>
+</ul>
+<h3 id="stashing-untrackedignored-files">Stashing Untracked/Ignored Files</h3>
+<p>To add untracked files, simply append <code>-u</code> or <code>--include-untracked</code> to <code>git stash</code>
+You can include changes to ignored files as well by passing the <code>-a</code> option (or <code>--all</code>) when running git stash.</p>
+<h3 id="working-with-multiple-stashes">Working With Multiple Stashes</h3>
+<ul>
+<li>To list all stashes: <code>git stash list</code></li>
+<li>To save the stash with an ID message: <code>git stash save "message"</code> which will show \&lt;message&gt; when using <code>git stash list</code></li>
+<li>By default, git stash pop will re-apply the most recently created stash: <code>stash@{0}</code> - use <code>git stash list</code> to identify which stash you wish to pop.</li>
+<li>To pop specific stash number 2: <code>git stash pop stash@{2}</code></li>
+<li>To delete a stash: <code>git stash drop stash@{N}</code></li>
+</ul>
+<h3 id="partial-stashes">Partial Stashes</h3>
+<ul>
+<li>You can choose to stash:</li>
+<li>just a single file</li>
+<li>a collection of files</li>
+<li>individual changes from within files ("hunks")</li>
+</ul>
+<p>Use: <code>git stash --patch</code> (or <code>-p</code>) to iterate through each changed hunk in your working copy and use the commands below as replies for each hunk. (Use ^-C to abort process)
+<div class="language-text highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1"></a><a href="#__codelineno-13-1"><span class="linenos" data-linenos="1 "></span></a>Command     Description
+</span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2"></a><a href="#__codelineno-13-2"><span class="linenos" data-linenos="2 "></span></a>/           search for a hunk by regex
+</span><span id="__span-13-3"><a id="__codelineno-13-3" name="__codelineno-13-3"></a><a href="#__codelineno-13-3"><span class="linenos" data-linenos="3 "></span></a>?           help
+</span><span id="__span-13-4"><a id="__codelineno-13-4" name="__codelineno-13-4"></a><a href="#__codelineno-13-4"><span class="linenos" data-linenos="4 "></span></a>n           don't stash this hunk
+</span><span id="__span-13-5"><a id="__codelineno-13-5" name="__codelineno-13-5"></a><a href="#__codelineno-13-5"><span class="linenos" data-linenos="5 "></span></a>q           quit (any hunks that have already been selected will be stashed)
+</span><span id="__span-13-6"><a id="__codelineno-13-6" name="__codelineno-13-6"></a><a href="#__codelineno-13-6"><span class="linenos" data-linenos="6 "></span></a>s           split this hunk into smaller hunks
+</span><span id="__span-13-7"><a id="__codelineno-13-7" name="__codelineno-13-7"></a><a href="#__codelineno-13-7"><span class="linenos" data-linenos="7 "></span></a>y           stash this hunk
+</span></code></pre></div></p>
+<h3 id="branch-a-stash">Branch a Stash</h3>
+<p>If the changes on your branch diverge from the changes in your stash, you may run into conflicts when popping or applying your stash. Instead, you can use git stash branch to create a new branch to apply your stashed changes to: <code>git stash branch new-branch stash@{N}</code></p>
+<h2 id="gitignore">.gitignore</h2>
+<p>Git sees every file in your working copy as either:
+- tracked (previously staged or comitted)
+- untracked (not staged or comitted)
+- ignored (an excluded file based on the patterns in <code>.gitignore</code> file.</p>
+<p>The <code>.gitignore</code> file uses globbing patterns to match file names.</p>
+<table> <thead> <tr> <th>Pattern</th> <th>Example matches</th> <th>Explanation*</th> </tr> </thead> <tbody> <tr> <td> <code class="hljs language-bash">**/logs</code> </td> <td> <code class="hljs language-bash">logs/debug.log</code><br/> <code class="hljs language-bash">logs/monday/foo.bar</code><br/> <code class="hljs language-bash">build/logs/debug.log</code> </td> <td> You can prepend a pattern with a double asterisk to match directories anywhere in the repository. </td> </tr> <tr> <td> <code class="hljs language-js">**<span class="hljs-regexp">/logs/</span>debug.<span class="hljs-property">log</span></code> </td> <td> <code class="hljs language-bash">logs/debug.log</code><br/> <code class="hljs language-bash">build/logs/debug.log</code><br/> <em>but not</em><br/> <code class="hljs language-bash">logs/build/debug.log</code> </td> <td> You can also use a double asterisk to match files based on their name and the name of their parent directory. </td> </tr> <tr> <td> <code class="hljs language-bash">*.<span class="hljs-built_in">log</span></code> </td> <td> <code class="hljs language-undefined">debug.log</code><br/> <code class="hljs language-undefined">foo.log</code><br/> <code class="hljs language-bash">.<span class="hljs-built_in">log</span></code><br/> <code class="hljs language-bash">logs/debug.log</code> </td> <td> An asterisk is a wildcard that matches zero or more characters. </td> </tr> <tr> <td> <code class="hljs language-bash">*.<span class="hljs-built_in">log</span></code><br/> <code class="hljs language-yml"><span class="hljs-type">!important.log</span></code> </td> <td> <code class="hljs language-undefined">debug.log</code><br/> <code class="hljs language-undefined">trace.log</code><br/> <em>but not</em><br/> <code class="hljs language-undefined">important.log</code><br/> <code class="hljs language-bash">logs/important.log</code> </td> <td> Prepending an exclamation mark to a pattern negates it. If a file matches a pattern, but <em>also</em> matches a negating pattern defined later in the file, it will not be ignored. </td> </tr> <tr> <td> <code class="hljs language-bash">*.<span class="hljs-built_in">log</span></code><br/> <code class="hljs language-bash">!important/*.<span class="hljs-built_in">log</span></code><br/> <code class="hljs language-undefined">trace.*</code> </td> <td> <code class="hljs language-undefined">debug.log</code><br/> <code class="hljs language-bash">important/trace.log</code><br/> <em>but not</em><br/> <code class="hljs language-bash">important/debug.log</code> </td> <td> Patterns defined after a negating pattern will re-ignore any previously negated files. </td> </tr> <tr> <td> <code class="hljs language-bash">/debug.log</code> </td> <td> <code class="hljs language-undefined">debug.log</code><br/> <em>but not</em><br/> <code class="hljs language-bash">logs/debug.log</code> </td> <td> Prepending a slash matches files only in the repository root. </td> </tr> <tr> <td> <code class="hljs language-undefined">debug.log</code> </td> <td> <code class="hljs language-undefined">debug.log</code><br/> <code class="hljs language-bash">logs/debug.log</code> </td> <td> By default, patterns match files in any directory </td> </tr> <tr> <td> <code class="hljs language-bash">debug?.<span class="hljs-built_in">log</span></code> </td> <td> <code class="hljs language-undefined">debug0.log</code><br/> <code class="hljs language-undefined">debugg.log</code><br/> <em>but not</em><br/> <code class="hljs language-undefined">debug10.log</code> </td> <td> A question mark matches exactly one character. </td> </tr> <tr> <td> <code class="hljs language-bash">debug[0-9].<span class="hljs-built_in">log</span></code> </td> <td> <code class="hljs language-undefined">debug0.log</code><br/> <code class="hljs language-undefined">debug1.log</code><br/> <em>but not</em><br/> <code class="hljs language-undefined">debug10.log</code> </td> <td> Square brackets can also be used to match a single character from a specified range. </td> </tr> <tr> <td> <code class="hljs language-bash">debug[01].<span class="hljs-built_in">log</span></code> </td> <td> <code class="hljs language-undefined">debug0.log</code><br/> <code class="hljs language-undefined">debug1.log</code><br/> <em>but not </em><br/> <code class="hljs language-undefined">debug2.log</code><br/> <code class="hljs language-undefined">debug01.log</code> </td> <td> Square brackets match a single character form the specified set. </td> </tr> <tr> <td> <code class="hljs language-bash">debug[!01].<span class="hljs-built_in">log</span></code> </td> <td> <code class="hljs language-undefined">debug2.log</code><br/> <em>but not</em><br/> <code class="hljs language-undefined">debug0.log</code><br/> <code class="hljs language-undefined">debug1.log</code><br/> <code class="hljs language-undefined">debug01.log</code> </td> <td> An exclamation mark can be used to match any character except one from the specified set. </td> </tr> <tr> <td> <code class="hljs language-bash">debug[a-z].<span class="hljs-built_in">log</span></code> </td> <td> <code class="hljs language-undefined">debuga.log</code><br/> <code class="hljs language-undefined">debugb.log</code><br/> <em>but not</em><br/> <code class="hljs language-undefined">debug1.log</code> </td> <td> Ranges can be numeric or alphabetic. </td> </tr> <tr> <td> <code class="hljs language-undefined">logs</code> </td> <td> <code class="hljs language-undefined">logs</code><br/> <code class="hljs language-bash">logs/debug.log</code><br/> <code class="hljs language-bash">logs/latest/foo.bar</code><br/> <code class="hljs language-bash">build/logs</code><br/> <code class="hljs language-bash">build/logs/debug.log</code> </td> <td> If you don't append a slash, the pattern will match both files and the contents of directories with that name. In the example matches on the left, both directories and files named <em>logs</em> are ignored </td> </tr> <tr> <td> logs/ </td> <td> <code class="hljs language-bash">logs/debug.log</code><br/> <code class="hljs language-bash">logs/latest/foo.bar</code><br/> <code class="hljs language-bash">build/logs/foo.bar</code><br/> <code class="hljs language-bash">build/logs/latest/debug.log</code> </td> <td> Appending a slash indicates the pattern is a directory. The entire contents of any directory in the repository matching that name – including all of its files and subdirectories – will be ignored </td> </tr> <tr> <td> <code class="hljs language-undefined">logs/</code><br/> <code class="hljs language-bash">!logs/important.log</code> </td> <td> <code class="hljs language-bash">logs/debug.log</code><br/> <code class="hljs language-bash">logs/important.log</code> </td> <td> Wait a minute! Shouldn't <code class="hljs language-bash">logs/important.log</code> be negated in the example on the left<br/><br/> Nope! Due to a performance-related quirk in Git, you <em>can not</em> negate a file that is ignored due to a pattern matching a directory </td> </tr> <tr> <td> <code class="hljs language-bash">logs/**/debug.log</code> </td> <td> <code class="hljs language-bash">logs/debug.log</code><br/> <code class="hljs language-bash">logs/monday/debug.log</code><br/> <code class="hljs language-bash">logs/monday/pm/debug.log</code> </td> <td> A double asterisk matches zero or more directories. </td> </tr> <tr> <td> <code class="hljs language-bash">logs/*day/debug.log</code> </td> <td> <code class="hljs language-bash">logs/monday/debug.log</code><br/> <code class="hljs language-bash">logs/tuesday/debug.log</code><br/> <em>but not</em><br/> <code class="hljs language-bash">logs/latest/debug.log</code> </td> <td> Wildcards can be used in directory names as well. </td> </tr> <tr> <td> <code class="hljs language-bash">logs/debug.log</code> </td> <td> <code class="hljs language-bash">logs/debug.log</code><br/> <em>but not</em><br/> <code class="hljs language-undefined">debug.log</code><br/> <code class="hljs language-bash">build/logs/debug.log</code> </td> <td> Patterns specifying a file in a particular directory are relative to the repository root. (You can prepend a slash if you like, but it doesn't do anything special.) </td> </tr> </tbody> </table>
+<h3 id="local-ignore-rules">Local Ignore Rules</h3>
+<blockquote>
+<p>You can also define personal ignore patterns for a particular repository in a special file at .git/info/exclude. These are not versioned, and not distributed  with your repository, so it's an appropriate place to include patterns that will likely only benefit you. For example if you have a custom logging setup, or special development tools that produce files in your repository's working directory, you could consider adding them to .git/info/exclude to prevent them from being accidentally committed to your repository.</p>
+</blockquote>
+<h3 id="debugging">Debugging</h3>
+<p>Use: <code>git check-ignore --verbose ignored-file.log</code> to track down which <code>.gitignore</code> file has the rule for ignoring this file.</p>
+<h2 id="git-tags">Git Tags</h2>
+<h3 id="creating-tags">Creating Tags</h3>
+<p>Use: <code>git tag -a "v1.2.3b" &lt;commit-hash&gt;</code> to create an annotated tag on the commit referenced with a hash.</p>
+<p>In the event that you must update an existing tag, the -f FORCE option must be used.</p>
+<h3 id="deleting-tags">Deleting Tags</h3>
+<p>Use: <code>git tag -d &lt;git-tag-name&gt;</code> to delete a tag.</p>
+<h3 id="types-of-tags">Types of Tags</h3>
+<p>Use: <code>git tag &lt;tagname&gt;</code> to create a lightweight tag
+    Lightweight tags are essentially 'bookmarks' to a commit, they are just a name and a pointer to a commit, useful for creating quick links to relevant commits.</p>
+<p>Use: <code>git tag -a &lt;tagname&gt;</code> to create an annotated tag.
+    Annotated tags are stored as full objects in the Git database. To reiterate, They store extra meta data such as: the tagger name, email, and date. Similar to commits and commit messages Annotated tags have a tagging message. Additionally, for security, annotated tags can be signed and verified with GNU Privacy Guard (GPG). Suggested best practices for git tagging is to prefer annotated tags over lightweight so you can have all the associated meta-data.</p>
+<h3 id="listing-tags">Listing Tags</h3>
+<p>Use: <code>git tag</code> to list all tags
+Use: <code>git tag -l *-rc*</code> to refine the list so you get every tag that contains <code>-rc</code> at any place in the tag name.</p>
+<h3 id="checkout-tag">Checkout Tag</h3>
+<p>Use: <code>git checkout &lt;name-of-tag&gt;</code></p>
+<p>This puts the repo in a detached <code>HEAD</code> state. This means any changes made will not update the tag. They will create a new detached commit. This new detached commit will not be part of any branch and will only be reachable directly by the commits SHA hash. Therefore it is a best practice to create a new branch anytime you're making changes in a detached <code>HEAD</code> state.</p>
+<h2 id="git-blame">Git Blame</h2>
+<p><em>This section only touches slightly on the topic of <code>git blame</code>. It's a more advanced topic that I'll not go deep into</em></p>
+<blockquote>
+<p>The git blame command is used to examine the contents of a file line by line and see when each line was last modified and who the author of the modifications was.</p>
+<p>The git blame command is a versatile troubleshooting utility that has extensive usage options. The high-level function of git blame is the display of author metadata attached to specific committed lines in a file. This is used to examine specific points of a file's history and get context as to who the last author was that modified the line. This is used to explore the history of specific code and answer questions about what, how, and why the code was added to a repository.</p>
+</blockquote>
+<h2 id="git-checkout">Git Checkout</h2>
+<p><code>git checkout &lt;commit-hash&gt;</code></p>
+<p><code>git checkout &lt;branch&gt;</code></p>
+<p>If you checkout a commit, do some changes and then checkout the main branch again (for example), you can then do ´git revert<code>or</code>git reset`to undo any undesired changes you made.</p>
+<blockquote>
+<p>Checking out a specific commit will put the repo in a "detached HEAD" state. This means you are no longer working on any branch. In a detached state, any new commits you make will be orphaned when you change branches back to an established branch. Orphaned commits are up for deletion by Git's garbage collector. The garbage collector runs on a configured interval and permanently destroys orphaned commits. To prevent orphaned commits from being garbage collected, we need to ensure we are on a branch.</p>
+</blockquote>
+<h2 id="git-revert">Git Revert</h2>
+<blockquote>
+<p>The git revert command is a forward-moving undo operation that offers a safe method of undoing changes.</p>
+<p>git revert is able to target an individual commit at an arbitrary point in the history</p>
+</blockquote>
+<p>Use: <code>git revert HEAD</code> to create a new commit that's the inverse of the last commit (i.e. it cancels the latest commit)</p>
+<blockquote>
+<p>The preferred method of undoing shared history is git revert. A revert is safer than a reset because it will not remove any commits from a shared history. A revert will retain the commits you want to undo and create a new commit that inverts the undesired commit. This method is safer for shared remote collaboration because a remote developer can then pull the branch and receive the new revert commit which undoes the undesired commit.</p>
+</blockquote>
+<h2 id="git-reset">Git Reset</h2>
+<blockquote>
+<p>The git reset command is a complex and versatile tool for undoing changes. It has three primary forms of invocation. These forms correspond to command line arguments --soft, --mixed, --hard. The three arguments each correspond to Git's three internal state management mechanism's, The Commit Tree (HEAD), The Staging Index, and The Working Directory.</p>
+</blockquote>
+<p><code>git reset</code> should generally be considered a local undo method.</p>
+<p>Use: <code>git reset --hard &lt;commit-hash&gt;</code> to reset the history to include (up to) that specified commit</p>
+<p><code>git reset</code> is primarily used to undo the staging index changes.</p>
+<p><code>git reset --mixed</code> will move any pending changes from the staging index back into the working directory.</p>
+<blockquote>
+<p>Doing a reset is great for local changes however it adds complications when working with a shared remote repository. If we have a shared remote repository that has the deleted commit pushed to it, and we try to git push a branch where we have reset the history, Git will catch this and throw an error. Git will assume that the branch being pushed is not up to date because of it's missing commits. In these scenarios, git revert should be the preferred undo method.</p>
+</blockquote>
+<h2 id="git-clean">Git Clean</h2>
+<p>The <code>git clean</code> command operates on untracked files.</p>
+<blockquote>
+<p>When fully executed, git clean will make a hard filesystem deletion</p>
+</blockquote>
+<p>By default <code>git clean</code> requires a force-flag <code>-f</code> to run - this is a security mechanism.</p>
+<blockquote>
+<p>By default git clean will not operate recursively on directories. This is another safety mechanism to prevent accidental permanent deletion.</p>
+</blockquote>
+<p>Use: <code>git clean -n</code> to perform a dry-run.</p>
+<p>Use the <code>-d</code> flag to include directories. By default git clean will ignore directories</p>
+<p>Use the <code>-x</code> option to tell git clean to also include any ignored files (useful for cleaning build-files).</p>
+<p>Use the <code>-i</code> option to start an interactive session. E.g.: <code>git clean -idx</code></p>
 </article>
 </div>
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
@@ -644,15 +1106,48 @@
 </button>
 </main>
 <footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: PEP8" class="md-footer__link md-footer__link--prev" href="../pep8_overview/">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+</div>
+<div class="md-footer__title">
+<span class="md-footer__direction">
+                Previous
+              </span>
+<div class="md-ellipsis">
+                PEP8
+              </div>
+</div>
+</a>
+<a aria-label="Next: Introduction" class="md-footer__link md-footer__link--next" href="../../python_beginner/introduction/">
+<div class="md-footer__title">
+<span class="md-footer__direction">
+                Next
+              </span>
+<div class="md-ellipsis">
+                Introduction
+              </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+</div>
+</a>
+</nav>
 <div class="md-footer-meta md-typeset">
 <div class="md-footer-meta__inner md-grid">
 <div class="md-copyright">
-  
-  
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
-      Material for MkDocs
-    </a>
+<div class="md-copyright__highlight">
+      Copyright © 2025 - 2025 Blue-Hexagon
+    </div>
+</div>
+<div class="md-social">
+<a class="md-social__link" href="https://example.com" rel="noopener" target="_blank" title="squidfunk on Fosstodon">
+<svg viewbox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"></path></svg>
+</a>
+<a class="md-social__link" href="https://example.com" rel="noopener" target="_blank" title="example.com">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"></path></svg>
+</a>
 </div>
 </div>
 </div>
@@ -661,7 +1156,7 @@
 <div class="md-dialog" data-md-component="dialog">
 <div class="md-dialog__inner md-typeset"></div>
 </div>
-<script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.instant", "navigation.sections", "navigation.tracking", "navigation.expand", "navigation.path", "navigation.indexes", "navigation.top", "toc.follow", "toc.integrate", "content.code.copy", "content.code.annotate", "content.code.select"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script id="__config" type="application/json">{"base": "../..", "features": ["announce.dismiss", "navigation.tabs", "navigation.instant", "navigation.sections", "navigation.tracking", "navigation.expand", "navigation.path", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "toc.integrate", "content.code.copy", "content.code.annotate", "content.code.select"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
 <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
 <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
 document$.subscribe(() => { lightbox.reload() });
